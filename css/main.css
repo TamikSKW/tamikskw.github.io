@@ -46,6 +46,11 @@ Main section
     margin-bottom: 1em;
 }
 
+.splash_icon {
+    color: white;
+    font-size: 300%;
+}
+
 /****************
 Links
 ****************/
