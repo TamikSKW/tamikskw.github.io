@@ -46,23 +46,24 @@ Main section
     margin-bottom: 1em;
 }
 
+.splash_icon {
+    color: white;
+    font-size: 300%;
+}
+
 /****************
 Links
 ****************/
 .featured_container {
     height: 150px;
-    width: 100%;
-    flex-wrap: wrap;
-    display: flex;
 }
 
-.featured_item{
-    width: 30%;
-    margin-left: 3%;
-    max-width: 30%;
+/*a.featured_item{
+    width: 33.33%;
+    padding: 5px;
     height: 128px;
     cursor: pointer;
-    box-sizing: content-box;
+    display: flex;
 }
 
 .featured_item:hover {
@@ -71,22 +72,38 @@ Links
     border-color: #00ffff;  
     
 }
-
+*/
 .featured_item img {
-    width: 100%;
     max-height: 100%;
-
+    width: calc(100%/3 - 10px);
+    margin: auto;
 }
 
 .featured_title {
     color: #00ffff;
 }
 
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: auto;
+    padding: 5px;
+    height: 250px;
+}
+
+
 /****************
 Article
 ****************/
 .text {
     color: #00ffff;
+}
+
+.symbol {
+    color: #00ffff;
+    font-size: 2em;
 }
 
 /****************
