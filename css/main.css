@@ -68,6 +68,7 @@ Links
     max-height: 100%;
     width: calc(100%/3 - 10px);
     margin: auto;
+    border-radius: 1em;
 }
 
 .featured_title {
