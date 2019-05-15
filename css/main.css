@@ -33,7 +33,8 @@ Page title section
 }
 
 hr {
-    border-color: #00ffff;
+    border-color:#00ffff;
+    box-shadow:0 0 10px #00ffff;
 }
 
 
@@ -58,21 +59,11 @@ Links
     height: 150px;
 }
 
-/*a.featured_item{
-    width: 33.33%;
-    padding: 5px;
-    height: 128px;
-    cursor: pointer;
-    display: flex;
+.featured_item img:hover {
+    outline-color: #00ffff;
+    box-shadow:0 0 10px #00ffff;
 }
 
-.featured_item:hover {
-    border: solid;
-    border-width: thin;
-    border-color: #00ffff;  
-    
-}
-*/
 .featured_item img {
     max-height: 100%;
     width: calc(100%/3 - 10px);
