@@ -1,110 +1,11 @@
-div {
-    max-width: 100%;
-    height: 100px;
-}
+/*Only import and things that apply to the whole page*/
+@import 'card.css';
+@import 'container.css';
+
 body {
     font-family: sans-serif;
     
     
     background-color: #001122;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%2300ffff' fill-opacity='0.15' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-
-/****************
-Page title section
-****************/
-.title_container {
-    width: 100%;
-    flex-wrap: wrap;
-    display: flex;
-}
-
-.title_logo {
-    width: 100px;
-    height: 100px;
-    justify-items: left;
-}
-
-.title_name {
-    color: #00ffff;
-    height: 50px;
-    width: calc(100% - 100px);
-    text-align: right;
-}
-
-hr {
-    border-color:#00ffff;
-    box-shadow:0 0 10px #00ffff;
-}
-
-
-/****************
-Main section
-****************/
-.splash {
-    height: 500px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.splash_icon {
-    color: white;
-    font-size: 300%;
-}
-
-/****************
-Links
-****************/
-.featured_container {
-    height: 150px;
-}
-
-.featured_item img:hover {
-    outline-color: #00ffff;
-    box-shadow:0 0 10px #00ffff;
-}
-
-.featured_item img {
-    max-height: 100%;
-    width: calc(100%/3 - 10px);
-    margin: auto;
-    border-radius: 1em;
-}
-
-.featured_title {
-    color: #00ffff;
-}
-
-.row {
-    display: flex;
-  }
-  
-.column {
-    flex: auto;
-    padding: 5px;
-    height: 250px;
-}
-
-
-/****************
-Article
-****************/
-.text {
-    color: #00ffff;
-}
-
-.symbol {
-    color: #00ffff;
-    font-size: 2em;
-}
-
-/****************
-Desktop
-****************/
-
-@media (min-width: 800px) {
-    body {
-        max-width: 800px;
-        margin: auto;
-    }
 }
