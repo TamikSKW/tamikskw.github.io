@@ -1,9 +1,10 @@
 /*Only import and things that apply to the whole page*/
 @import 'card.css';
-@import 'container.css';
+@import 'layout.css';
 
 body {
     font-family: sans-serif;
+    color: white;
     
     
     background-color: #001122;
