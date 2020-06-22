@@ -5,10 +5,10 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
-  grid-template-rows: 0.6fr 1.4fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 0.6fr 1.8fr;
   gap: 1px 1px;
-  grid-template-areas: "header header header header" "nav content content content" "nav content content content";
+  grid-template-areas: "header header header header" "nav nav nav nav" "content content content content";
 }
 
 .header {
@@ -23,4 +23,26 @@
 
 .content {
   grid-area: content;
+}
+
+/*Tablets*/
+@media only screen and (min-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1.4fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "header header header header" "nav content content content" "nav content content content";
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 960px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.6fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "header header header header" "nav content content ." "nav content content .";
+  }
 }
