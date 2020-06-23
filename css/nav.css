@@ -1,3 +1,6 @@
-.nav nav {
-    border: 1em 1em solid red;
+#primary-nav {
+    border: 1px solid cyan;
+    border-radius: 1.5em;
+    background-color: cyan;
+    box-shadow: 1px 10px 2px cyan;
 }
